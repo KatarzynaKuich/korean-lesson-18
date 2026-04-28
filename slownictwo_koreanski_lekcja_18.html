@@ -1,0 +1,146 @@
+<style>body {
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 { color: #2c3e50; margin-bottom: 30px; text-align: center; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 15px;
+            width: 100%;
+            max-width: 1200px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+            border: 1px solid #e1e8ed;
+        }
+        .card:hover { transform: translateY(-3px); box-shadow: 0 8px 15px rgba(0,0,0,0.1); }
+        .emoji { font-size: 50px; margin-bottom: 10px; }
+        .ko { font-size: 22px; font-weight: bold; color: #0056b3; margin: 5px 0; }
+        .pl { font-size: 14px; color: #666; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 10px; }
+        .ex-ko { font-size: 13px; color: #333; line-height: 1.4; margin-bottom: 5px; font-weight: 500; }
+        .ex-pl { font-size: 12px; color: #888; font-style: italic; }
+        @media (max-width: 600px) {
+            .grid { grid-template-columns: 1fr 1fr; }
+            .card { padding: 10px; }
+            .emoji { font-size: 40px; }
+            .ko { font-size: 18px; }
+        }</style>
+<h1>🇰🇷 Lekcja 18: Słownictwo</h1>
+<div class="grid">
+  <div class="card">
+    <div class="emoji">📺</div>
+    <div class="ko">텔레비전</div>
+    <div class="pl">telewizja</div>
+    <div class="ex-ko">평일에는 바빠서 텔레비전을 못 봅니다.</div>
+    <div class="ex-pl">W tygodniu jestem zajęty i nie oglądam TV.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🎬</div>
+    <div class="ko">프로그램</div>
+    <div class="pl">program TV</div>
+    <div class="ex-ko">저는 이 여행 프로그램을 매일 봐요.</div>
+    <div class="ex-pl">Oglądam ten program podróżniczy codziennie.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">😴</div>
+    <div class="ko">낮잠</div>
+    <div class="pl">drzemka</div>
+    <div class="ex-ko">점심을 먹고 낮잠을 잤어요.</div>
+    <div class="ex-pl">Po obiedzie uciąłem sobie drzemkę.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">✂️</div>
+    <div class="ko">미용실</div>
+    <div class="pl">salon fryzjerski</div>
+    <div class="ex-ko">미용실에서 머리를 잘랐어요.</div>
+    <div class="ex-pl">Obciąłem włosy u fryzjera.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🚶</div>
+    <div class="ko">산책</div>
+    <div class="pl">spacer</div>
+    <div class="ex-ko">한강 공원에서 산책을 해요.</div>
+    <div class="ex-pl">Spaceruję w parku Hangang.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🗣️</div>
+    <div class="ko">외국어</div>
+    <div class="pl">język obcy</div>
+    <div class="ex-ko">외국어 학원에서 영어를 공부해요.</div>
+    <div class="ex-pl">Uczę się angielskiego w szkole językowej.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🎭</div>
+    <div class="ko">공연</div>
+    <div class="pl">występ</div>
+    <div class="ex-ko">예술회관에서 여러 공연을 해요.</div>
+    <div class="ex-pl">W centrum sztuki są różne występy.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🎤</div>
+    <div class="ko">콘서트</div>
+    <div class="pl">koncert</div>
+    <div class="ex-ko">저 가수의 콘서트를 여러 번 봤어요.</div>
+    <div class="ex-pl">Byłem na koncercie tego piosenkarza wiele razy.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🍿</div>
+    <div class="ko">극장/영화관</div>
+    <div class="pl">kino</div>
+    <div class="ex-ko">극장/영화관에서 영화를 봐요.</div>
+    <div class="ex-pl">Oglądam film w kinie.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🩰</div>
+    <div class="ko">연극</div>
+    <div class="pl">sztuka teatralna</div>
+    <div class="ex-ko">이번 연극은 연기가 매우 좋았어요.</div>
+    <div class="ex-pl">W tej sztuce gra aktorska była bardzo dobra.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🎟️</div>
+    <div class="ko">표</div>
+    <div class="pl">bilet</div>
+    <div class="ex-ko">인기가 많아서 표가 없습니다.</div>
+    <div class="ex-pl">Jest tak popularny, że nie ma biletów.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🖼️</div>
+    <div class="ko">미술관</div>
+    <div class="pl">galeria sztuki</div>
+    <div class="ex-ko">미술관에 그림이 많아요.</div>
+    <div class="ex-pl">W galerii jest dużo obrazów.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">🏛️</div>
+    <div class="ko">박물관</div>
+    <div class="pl">muzeum</div>
+    <div class="ex-ko">박물관에서 한국의 옛날 옷을 봤어요.</div>
+    <div class="ex-pl">Widziałem w muzeum dawne koreańskie stroje.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">👏</div>
+    <div class="ko">연기가 좋다</div>
+    <div class="pl">dobra gra aktorska</div>
+    <div class="ex-ko">배우들의 연기가 좋았어요.</div>
+    <div class="ex-pl">Gra aktorska była świetna.</div>
+  </div>
+  <div class="card">
+    <div class="emoji">⭐</div>
+    <div class="ko">인기가 많다</div>
+    <div class="pl">popularność</div>
+    <div class="ex-ko">이 옷이 제일 인기가 많아요.</div>
+    <div class="ex-pl">To ubranie jest najpopularniejsze.</div>
+  </div>
+</div>
